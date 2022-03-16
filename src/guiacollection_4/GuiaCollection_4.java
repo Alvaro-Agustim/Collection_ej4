@@ -5,6 +5,8 @@
  */
 package guiacollection_4;
 
+import Servicios.ServicioPelicula;
+
 /**
  *
  * @author alvaro
@@ -15,7 +17,8 @@ public class GuiaCollection_4 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       ServicioPelicula sp = new ServicioPelicula();
+       sp.ListaPeliculas();
     }
     
 }
